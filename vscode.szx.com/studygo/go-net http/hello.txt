@@ -1,0 +1,9 @@
+<h1 style='color:orange'>Hello Golang</h1>
+<h2>你好啊！Web世界</h2>
+<img id='i1' src='https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F12441785048%2F1000.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1639538991&t=3b00bec8e144633d0363f99abc5365b9' height="500 width="500"/>
+<button id ='b1'>点我</button>
+<script>
+document.getElementById('b1').onclick=function(){
+    document.getElementById('i1').src='https://pics2.baidu.com/feed/0bd162d9f2d3572c01b0bd992203382162d0c33f.jpeg?token=2b62cb12624b679c7d0cd79e4abb1c11'
+}
+</script>
